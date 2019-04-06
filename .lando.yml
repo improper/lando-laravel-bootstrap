@@ -24,3 +24,11 @@ services:
 
   node:
     type: node
+
+tooling:
+  node:
+    service: node
+  npm:
+    service: node
+  yarn:
+    service: node
