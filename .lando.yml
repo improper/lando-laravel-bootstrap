@@ -1,0 +1,23 @@
+name: my-laravel
+recipe: laravel
+
+proxy:
+  appserver_nginx:
+    - mylaravel.lndo.site
+  mail:
+    - mail.mylaravel.lndo.site
+
+config:
+  webroot: public
+  via: nginx
+  database: mariadb
+  cache: redis
+
+services:
+  session:
+    type: redis
+
+  mail:
+    type: mailhog
+    hogfrom:
+      - appserver
