@@ -21,3 +21,6 @@ services:
     type: mailhog
     hogfrom:
       - appserver
+
+  node:
+    type: node
