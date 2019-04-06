@@ -1,2 +1,0 @@
-
-  Mail::send('welcome', [], function() {  ->to('myawesomeemail@domain.com')->subject('Testing mails');}); artisan tinker
