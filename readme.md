@@ -3,7 +3,7 @@
 ## Services
 
 - Redis 5 for Cache & Sessions
-- MariaDB 10
+- MySQL 5.7
 - PHP 7.3
 - NGINX (default) & Apache
 
