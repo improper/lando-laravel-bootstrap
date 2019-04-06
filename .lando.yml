@@ -10,7 +10,6 @@ proxy:
 config:
   webroot: public
   via: nginx
-  database: mariadb
   cache: redis
 
 services:
